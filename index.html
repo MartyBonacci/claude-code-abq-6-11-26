@@ -333,7 +333,7 @@
     /* ===== SINCE-LAST-MEETUP SLIDE ===== */
     .changelog-list { font-size: 0.75em; line-height: 2.0; text-align: left; max-width: 950px; margin: 0 auto; }
     .changelog-list li { padding-left: 1.2em; }
-    .changelog-list .date { color: var(--text-dim); font-size: 0.85em; margin-left: 0.3em; }
+    .changelog-list .date { color: var(--text-dim); font-size: 0.85em; margin-left: 0.3em; white-space: nowrap; }
 
     /* Reveal.js progress + controls — color match */
     .reveal .progress { color: var(--accent); }
@@ -412,13 +412,14 @@
         <div class="bar-content">
           <h3>Since Our Last Meetup <span class="dim-text" style="font-size:0.7em;">(May 14)</span></h3>
           <ul class="changelog-list">
-            <li><strong>Code with Claude conference</strong> — Managed Agents, Proactive Workflows, the Capability Curve <span class="date">(May 21)</span></li>
-            <li><strong>Claude Opus 4.8</strong> — honesty &amp; reliability focus; Dynamic Workflows research preview orchestrates hundreds of parallel subagents <span class="date">(May 28)</span></li>
-            <li><strong>Claude Fable 5 + Mythos 5</strong> — first models in the new Mythos-class tier, above Opus <span class="date">(Jun 9)</span></li>
-            <li><strong>CLI quality-of-life</strong> — /cd moves a session to a new directory; <span style="white-space:nowrap;">--safe-mode</span> for troubleshooting; fallbackModel setting; plugin search <span class="date">(May–Jun)</span></li>
+            <li><strong>Claude Opus 4.8</strong> — new default model; <span style="white-space:nowrap;">/effort xhigh</span> for harder tasks; Fast Mode ~2.5&times; speed at the new lower price <span class="date">(May 28)</span></li>
+            <li><strong>Claude Fable 5</strong> — first Mythos-class model, a tier above Opus; 1M context by default — try <span style="white-space:nowrap;">/model claude-fable-5</span> <span class="date">(Jun 9)</span></li>
+            <li><strong>Dynamic Workflows</strong> — say "ultracode" and Claude orchestrates hundreds of subagents; manage with /workflows <span class="date">(May 28)</span></li>
+            <li><strong>Auto Mode on Pro</strong> — background safety checks replace most permission prompts; cycle modes with Shift+Tab <span class="date">(May 18)</span></li>
+            <li><strong>/code-review</strong> — built-in PR review with effort levels; <span style="white-space:nowrap;">--comment</span> posts inline GitHub comments <span class="date">(May 18)</span></li>
           </ul>
         </div>
-        <aside class="notes">Rapid fire — a lot happened in four weeks. Code with Claude conference on May 21: Managed Agents, Proactive Workflows, and the Capability Curve. May 28, Opus 4.8 dropped with an emphasis on honesty and reliability, plus the Dynamic Workflows research preview — hundreds of parallel subagents. Two days ago, June 9: Fable 5 and Mythos 5, the first Mythos-class models — a tier ABOVE Opus. And steady CLI quality-of-life: /cd to move a session to a new directory without losing context, --safe-mode to launch with all customizations off when debugging your setup, fallback models, and plugin search.</aside>
+        <aside class="notes">Rapid fire — five things you can use tomorrow. One: Opus 4.8 is the new default model — /effort xhigh when you want it to grind, and Fast Mode is roughly 2.5x faster at a third of the old fast-mode price. Two: Fable 5 dropped two days ago — first Mythos-class model, a tier ABOVE Opus, with a million tokens of context by default. /model claude-fable-5 and it's yours. Three: Dynamic Workflows — still a research preview — put "ultracode" in your prompt and Claude writes an orchestration script that fans out tens to hundreds of subagents; /workflows to watch them run. Four: if you're on the Pro plan, Auto Mode landed for you — background safety checks instead of permission prompts; Shift+Tab cycles modes. Five: /code-review is now built in — effort levels like /code-review high, and --comment posts inline comments right on your GitHub PR. Honorable mentions if anyone asks: /cd moves a session to a new directory, --safe-mode launches with all customizations off for troubleshooting, fallback models, plugin search in /plugin, and a pile of worktree improvements — which is a nice segue to what Tim's showing tonight.</aside>
       </section>
 
       <!-- ============================================ -->
