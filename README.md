@@ -4,7 +4,7 @@ Slides for the June 2026 Claude Code ABQ meetup.
 
 ## Tonight's Presenters
 
-- **Tim Farkus** — Git Worktrees + Claude Code: parallel Claude sessions without stepping on your own changes
+- **Tim Farkas** — Git Worktrees + Claude Code: parallel Claude sessions without stepping on your own changes
 - **George Kephart** — My Claude Code Workflow: how George actually ships with Claude Code, end to end
 
 ## Running the Slides
